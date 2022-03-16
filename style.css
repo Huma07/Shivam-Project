@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.grey-color {
+  color: grey;
+}
+
+.bold-heading {
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(32, 227, 227) !important;
+}
+
+.nav-link {
+  padding-right: 2vh !important;
+  text-transform: uppercase;
+  font-size: 2vh;
+  color: #000 !important;
+}
+
+.travel-section {
+  margin-left: 10vh;
+}
+
+.search-section {
+  position: relative;
+}
+
+.search-box_input {
+  position: absolute;
+  width: 85%;
+  padding: 1vh;
+  border: 1px solid rgb(200, 199, 199) !important;
+}
+
+::placeholder {
+  text-transform: uppercase;
+}
+
+.search-button {
+  position: absolute;
+  right: 0;
+  padding: 1vh 2vh;
+  background-color: rgb(17, 178, 100);
+  border: 1px solid rgb(17, 178, 100);
+  color: #fff;
+  cursor: pointer;
+}
+
+.bg-color {
+  background-color: rgb(234, 231, 231);
+  padding-top: 2vh;
+}
+
+.blog-block-image {
+  width: 125vh;
+}
+
+.popular-blog-section-title {
+  font-size: large;
+  margin: 3vh 0;
+  color: grey;
+  font-weight: 600;
+}
+
+.side-img-section {
+  position: relative;
+}
+
+.side-img {
+  width: 45%;
+  height: 80%;
+}
+
+.blog-preview-content {
+  position: absolute;
+  margin-left: 20vh;
+}
